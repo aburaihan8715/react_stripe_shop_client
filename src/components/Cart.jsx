@@ -28,12 +28,14 @@ const Cart = () => {
           "Content-type": "application/json; charset=UTF-8",
         },
         body: JSON.stringify({
+          // TODO: we should also send the useId, that will get from login user
+          userId: "",
           items: items,
         }),
       });
 
       const data = await res.json();
-      window.location = data.url;
+      window.location.href = data.url;
     } catch (error) {
       console.log(error);
     }

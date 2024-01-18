@@ -1,0 +1,18 @@
+
+## react_stripe_shop_client
+
+### =========references===========
+-tutorials
+https://www.youtube.com/watch?v=72iEz5iopqQ&t=1881s
+
+
+### features/actions
+
+
+### technologies used
+
+
+### completed tasks
+
+
+### pending tasks
